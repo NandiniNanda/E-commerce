@@ -1,6 +1,67 @@
-The objective of this e-commerce website project is to create a platform for customers to purchase watches online. The project will utilize the DevOps approach, which includes the use of a Continuous Integration/Continuous Deployment (CI/CD) pipeline and Docker containers, to automate the build, test, and deployment process. The primary goal of the project is to develop and deploy a high-quality website that offers a seamless user experience while ensuring reliability, scalability, and security.
+# Node.js Express Login and Registration example with MongoDB and JWT
 
-## Introduction
-The purpose of this project is to provide a user-friendly and reliable platform for customers to purchase watches online. The website will feature subpages such as Add to cart, Featured, Our Story, Products, New Arrivals, and more. To ensure that the website is of high quality, the project will utilize the DevOps approach. The use of a CI/CD pipeline and Docker containers will automate the build, test, and deployment process. By doing so, the website can be developed and deployed more efficiently and effectively while ensuring that it is reliable, scalable, and secure.
+- Appropriate Flow for User Login and Registration with JWT and Cookies
+- Node.js Express Architecture with CORS, Authentication & Authorization middlewares & Sequelize
+- How to configure Express routes to work with JWT
+- How to define Data Models and association for Authentication and Authorization
+- Way to use Sequelize to interact with MySQL Database
 
-The website will be designed with the user experience in mind. Customers will be able to browse through a range of featured watches, new arrivals, and collections. The shopping cart functionality and secure payment options will enable customers to purchase their preferred timepieces with ease. We hope that this e-commerce website project for watches will meet the objectives set forth and provide customers with a convenient and enjoyable shopping experience.
+## User Registration, User Login and Authorization process.
+The diagram shows flow of how we implement User Registration, User Login and Authorization process.
+
+![node-js-express-login-example-mongodb-flow](node-js-express-login-example-mongodb-flow.png)
+
+For more detail, please visit:
+> [Node.js Express Login and Registration example with MongoDB and JWT](https://www.bezkoder.com/node-js-express-login-mongodb/)
+
+## More Practice:
+> [Node.js, Express & MongoDb: Build a CRUD Rest Api example](https://www.bezkoder.com/node-express-mongodb-crud-rest-api/)
+
+> [Server side Pagination in Node.js with MongoDB and Mongoose](https://www.bezkoder.com/node-js-mongodb-pagination/)
+
+> [Node.js Express File Upload Rest API example](https://www.bezkoder.com/node-js-express-file-upload/)
+
+> [Node.js + MongoDB: User Authentication & Authorization with JWT (using HTTP headers)](https://www.bezkoder.com/node-js-mongodb-auth-jwt/)
+
+Associations:
+> [MongoDB One-to-One relationship tutorial with Mongoose examples](https://www.bezkoder.com/mongoose-one-to-one-relationship-example/)
+
+> [MongoDB One-to-Many Relationship tutorial with Mongoose examples](https://www.bezkoder.com/mongoose-one-to-many-relationship/)
+
+> [MongoDB Many-to-Many Relationship with Mongoose examples](https://www.bezkoder.com/mongodb-many-to-many-mongoose/)
+
+Fullstack:
+> [Vue.js + Node.js + Express + MongoDB example](https://www.bezkoder.com/vue-node-express-mongodb-mevn-crud/)
+
+> [Angular 8 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-mongodb-node-express/)
+
+> [Angular 10 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-10-mongodb-node-express/)
+
+> [Angular 11 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-11-mongodb-node-js-express/)
+
+> [Angular 12 + Node.js + Express + MongoDB example](https://www.bezkoder.com/angular-12-mongodb-node-js-express/)
+
+> [Angular 13 + Node.js + Express + MongoDB example](https://www.bezkoder.com/mean-stack-crud-example-angular-13/)
+
+> [React + Node.js + Express + MongoDB example](https://www.bezkoder.com/react-node-express-mongodb-mern-stack/)
+
+Integration on same Server/Port:
+> [Integrate Vue with Node.js Express](https://www.bezkoder.com/serve-vue-app-express/)
+
+> [Integrate Angular 8 with Node.js Express](https://www.bezkoder.com/integrate-angular-8-node-js/)
+
+> [Integrate Angular 10 with Node.js Express](https://www.bezkoder.com/integrate-angular-10-node-js/)
+
+> [Integrate Angular 12 with Node.js Express](https://www.bezkoder.com/integrate-angular-12-node-js/)
+
+> [Integrate React with Node.js Express](https://www.bezkoder.com/integrate-react-express-same-server-port/)
+
+## Project setup
+```
+npm install
+```
+
+### Run
+```
+node server.js
+```
